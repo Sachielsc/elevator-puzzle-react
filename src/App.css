@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.title-challenge{
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.body-challenge {
+  margin: 40px 60px 40px 60px;
+}
+
+.challenge-description{
+  line-height: 230%;
+
+  /*!*seperate it into 2 columns together*!*/
+  /*-webkit-column-count: 2; !* Chrome, Safari, Opera *!*/
+  /*-moz-column-count:    2; !* Firefox *!*/
+  /*column-count:         2;*/
+  /*-webkit-column-gap:   20px; !* Chrome, Safari, Opera *!*/
+  /*-moz-column-gap:      20px; !* Firefox *!*/
+  /*column-gap:           60px;*/
+  /*column-rule-color: #ccc; !* Optional *!*/
+  /*column-rule-style:solid; !* Optional *!*/
+  /*column-rule-width: 1px; !* Optional *!*/
+  /*text-align: justify; !* Optional *!*/
+}
+
+.example-paragraph {
+  background-color: gray;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.validationInfo {
+  color: red;
+}
